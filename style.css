@@ -1,0 +1,65 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FCF6F0;
+}
+.parallax-bg {
+    background-image: url('https://placehold.co/1200x800/6B9080/FFFFFF?text=Hidangan+Urap+Segar');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-primary {
+    display: inline-block;
+    padding: 12px 32px;
+    background-color: #347C5E;
+    color: white;
+    font-weight: bold;
+    font-size: 1.125rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px rgba(52, 124, 94, 0.2);
+    transition: all 0.3s ease;
+}
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(52, 124, 94, 0.5), 
+                0 4px 6px -2px rgba(52, 124, 94, 0.05);
+}
+.btn-secondary {
+    display: inline-block;
+    padding: 12px 32px;
+    background-color: #D97706;
+    color: white;
+    font-weight: bold;
+    font-size: 1.125rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px rgba(217, 119, 6, 0.2);
+    transition: background-color 0.3s ease;
+}
+.btn-secondary:hover {
+    background-color: #c2410c;
+}
+.menu-card {
+    background-color: #FCF6F0;
+    padding: 24px;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.menu-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+.feature-card {
+    background-color: white;
+    color: #292524;
+    padding: 24px;
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    font-size: 1rem;
+}
+.feature-card h4 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 8px 0;
+}
